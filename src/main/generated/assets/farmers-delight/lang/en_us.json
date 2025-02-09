@@ -1,3 +1,18 @@
 {
-  "itemGroup.farmers-delight.farmersDelight": "Farmer's Delight"
+  "item.farmers-delight.apple_cider": "Apple Cider",
+  "item.farmers-delight.cabbage": "Cabbage",
+  "item.farmers-delight.fried_egg": "Fried Egg",
+  "item.farmers-delight.hot_cocoa": "Hot Cocoa",
+  "item.farmers-delight.melon_juice": "Melon Juice",
+  "item.farmers-delight.milk_bottle": "Milk Bottle",
+  "item.farmers-delight.onion": "Onion",
+  "item.farmers-delight.tomato": "Tomato",
+  "item.farmers-delight.tomato_sauce": "Tomato Sauce",
+  "item.farmersdelight.effect.absorption_duration": "Absorption: (01:00)",
+  "item.farmersdelight.effect.max_absorption_bonus": "+4 Max Absorption",
+  "item.farmersdelight.effect.when_applied": "When Applied:",
+  "item.farmersdelight.hot_cocoa.tooltip": "Removes one harmful status effect when consumed",
+  "item.farmersdelight.melon_juice.tooltip": "Restores 1 heart when consumed",
+  "item.farmersdelight.milk_bottle.tooltip": "Clears one status effect when consumed",
+  "itemGroup.farmersdelight.farmersDelight": "Farmer's Delight"
 }

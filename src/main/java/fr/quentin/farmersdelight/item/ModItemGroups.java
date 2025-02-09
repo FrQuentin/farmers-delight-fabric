@@ -15,9 +15,17 @@ public class ModItemGroups {
             Identifier.of(FarmersDelight.MOD_ID, "farmers_delight"),
             FabricItemGroup.builder()
                     .icon(() -> new ItemStack(Blocks.BRICKS))
-                    .displayName(Text.translatable("itemGroup." + FarmersDelight.MOD_ID + ".farmersDelight"))
+                    .displayName(Text.translatable("itemGroup.farmersdelight.farmersDelight"))
                     .entries((displayContext, entries) -> {
-                        entries.add(Blocks.BRICKS);
+                        entries.add(ModItems.CABBAGE);
+                        entries.add(ModItems.TOMATO);
+                        entries.add(ModItems.ONION);
+                        entries.add(ModItems.FRIED_EGG);
+                        entries.add(ModItems.MILK_BOTTLE);
+                        entries.add(ModItems.HOT_COCOA);
+                        entries.add(ModItems.APPLE_CIDER);
+                        entries.add(ModItems.MELON_JUICE);
+                        entries.add(ModItems.TOMATO_SAUCE);
                     }).build());
 
     public static void initialize() {

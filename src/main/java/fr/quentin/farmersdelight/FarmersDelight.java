@@ -1,6 +1,7 @@
 package fr.quentin.farmersdelight;
 
 import fr.quentin.farmersdelight.item.ModItemGroups;
+import fr.quentin.farmersdelight.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +13,7 @@ public class FarmersDelight implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.initialize();
 		ModItemGroups.initialize();
 	}
 }
