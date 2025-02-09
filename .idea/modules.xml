@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/farmers-delight-fabric.iml" filepath="$PROJECT_DIR$/.idea/modules/farmers-delight-fabric.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/farmers-delight-fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/farmers-delight-fabric.main.iml" />
     </modules>
   </component>
 </project>
