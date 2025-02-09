@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "fr.quentin.farmersdelight.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"FarmersDelightMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
