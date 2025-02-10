@@ -69,7 +69,32 @@ public class ModItems {
     public static final Item MUTTON_CHOPS = register("mutton_chops", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.MUTTON_CHOPS));
     public static final Item COOKED_MUTTON_CHOPS = register("cooked_mutton_chops", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.COOKED_MUTTON_CHOPS));
     public static final Item HAM = register("ham", new Item.Settings().food(ModFoodComponents.HAM));
-    public static final Item SMOKED_HAM = register("smoked_ham", new Item.Settings().food(ModFoodComponents.HAM));
+    public static final Item SMOKED_HAM = register("smoked_ham", new Item.Settings().food(ModFoodComponents.SMOKED_HAM));
+    public static final Item PIE_CRUST = register("pie_crust", new Item.Settings().food(ModFoodComponents.PIE_CRUST));
+    public static final Item CAKE_SLICE = register("cake_slice", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.CAKE_SLICE, ModConsumableComponents.CAKE_SLICE));
+    public static final Item APPLE_PIE_SLICE = register("apple_pie_slice", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.APPLE_PIE_SLICE, ModConsumableComponents.APPLE_PIE_SLICE));
+    public static final Item SWEET_BERRY_CHEESECAKE_SLICE = register("sweet_berry_cheesecake_slice", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.SWEET_BERRY_CHEESECAKE_SLICE, ModConsumableComponents.SWEET_BERRY_CHEESECAKE_SLICE));
+    public static final Item CHOCOLATE_PIE_SLICE = register("chocolate_pie_slice", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.CHOCOLATE_PIE_SLICE, ModConsumableComponents.CHOCOLATE_PIE_SLICE));
+    public static final Item SWEET_BERRY_COOKIE = register("sweet_berry_cookie", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.SWEET_BERRY_COOKIE));
+    public static final Item HONEY_COOKIE = register("honey_cookie", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.HONEY_COOKIE));
+    public static final Item MELON_POPSICLE = register("melon_popsicle", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.MELON_POPSICLE));
+    public static final Item GLOW_BERRY_CUSTARD = register("glow_berry_custard", new Item.Settings().food(ModFoodComponents.GLOW_BERRY_CUSTARD, ModConsumableComponents.GLOW_BERRY_CUSTARD).maxCount(16));
+    public static final Item FRUIT_SALAD = register("fruit_salad", FruitSaladItem::new, new Item.Settings().food(ModFoodComponents.FRUIT_SALAD, ModConsumableComponents.FRUIT_SALAD).maxCount(16));
+    public static final Item MIXED_SALAD = register("mixed_salad", MixedSaladItem::new, new Item.Settings().food(ModFoodComponents.MIXED_SALAD, ModConsumableComponents.MIXED_SALAD).maxCount(16));
+    public static final Item NETHER_SALAD = register("nether_salad", new Item.Settings().food(ModFoodComponents.NETHER_SALAD, ModConsumableComponents.NETHER_SALAD).maxCount(16));
+    public static final Item BARBECUE_STICK = register("barbecue_stick", new Item.Settings().food(ModFoodComponents.BARBECUE_STICK));
+    public static final Item EGG_SANDWICH = register("egg_sandwich", new Item.Settings().food(ModFoodComponents.EGG_SANDWICH));
+    public static final Item CHICKEN_SANDWICH = register("chicken_sandwich", new Item.Settings().food(ModFoodComponents.CHICKEN_SANDWICH));
+    public static final Item HAMBURGER = register("hamburger", new Item.Settings().food(ModFoodComponents.HAMBURGER));
+    public static final Item BACON_SANDWICH = register("bacon_sandwich", new Item.Settings().food(ModFoodComponents.BACON_SANDWICH));
+    public static final Item MUTTON_WRAP = register("mutton_wrap", new Item.Settings().food(ModFoodComponents.MUTTON_WRAP));
+    public static final Item DUMPLINGS = register("dumplings", new Item.Settings().food(ModFoodComponents.DUMPLINGS));
+    public static final Item STUFFED_POTATO = register("stuffed_potato", new Item.Settings().food(ModFoodComponents.STUFFED_POTATO));
+    public static final Item CABBAGE_ROLLS = register("cabbage_rolls", new Item.Settings().food(ModFoodComponents.CABBAGE_ROLLS));
+    public static final Item SALMON_ROLL = register("salmon_roll", new Item.Settings().food(ModFoodComponents.SALMON_ROLL));
+    public static final Item COD_ROLL = register("cod_roll", new Item.Settings().food(ModFoodComponents.COD_ROLL));
+    public static final Item KELP_ROLL = register("kelp_roll", SlowFoodItem::new, new Item.Settings().food(ModFoodComponents.KELP_ROLL));
+    public static final Item KELP_ROLL_SLICE = register("kelp_roll_slice", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.KELP_ROLL_SLICE));
 
     private static RegistryKey<Item> keyOf(String id) {
         return RegistryKey.of(RegistryKeys.ITEM, Identifier.of(FarmersDelight.MOD_ID, id));

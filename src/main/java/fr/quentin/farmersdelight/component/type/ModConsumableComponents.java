@@ -25,4 +25,28 @@ public class ModConsumableComponents extends ConsumableComponents {
     public static final ConsumableComponent CHICKEN_CUTS = food().consumeEffect(new ApplyEffectsConsumeEffect(
                     new StatusEffectInstance(StatusEffects.HUNGER, 600, 0), 0.3F))
             .build();
+    public static final ConsumableComponent CAKE_SLICE = food().consumeEffect(new ApplyEffectsConsumeEffect(
+                    new StatusEffectInstance(StatusEffects.SPEED, 400, 0, false, false, false), 1.0F))
+            .build();
+    public static final ConsumableComponent APPLE_PIE_SLICE = food().consumeEffect(new ApplyEffectsConsumeEffect(
+                    new StatusEffectInstance(StatusEffects.SPEED, 600, 0, false, false, false), 1.0F))
+            .build();
+    public static final ConsumableComponent SWEET_BERRY_CHEESECAKE_SLICE = food().consumeEffect(new ApplyEffectsConsumeEffect(
+                    new StatusEffectInstance(StatusEffects.SPEED, 600, 0, false, false, false), 1.0F))
+            .build();
+    public static final ConsumableComponent CHOCOLATE_PIE_SLICE = food().consumeEffect(new ApplyEffectsConsumeEffect(
+                    new StatusEffectInstance(StatusEffects.SPEED, 600, 0, false, false, false), 1.0F))
+            .build();
+    public static final ConsumableComponent GLOW_BERRY_CUSTARD = food().consumeEffect(new ApplyEffectsConsumeEffect(
+                    new StatusEffectInstance(StatusEffects.GLOWING, 100, 0), 1.0F))
+            .build();
+    public static final ConsumableComponent FRUIT_SALAD = food().consumeEffect(new ApplyEffectsConsumeEffect(
+                    new StatusEffectInstance(StatusEffects.REGENERATION, 100, 0), 1.0F))
+            .build();
+    public static final ConsumableComponent MIXED_SALAD = food().consumeEffect(new ApplyEffectsConsumeEffect(
+                    new StatusEffectInstance(StatusEffects.REGENERATION, 100, 0), 1.0F))
+            .build();
+    public static final ConsumableComponent NETHER_SALAD = food().consumeEffect(new ApplyEffectsConsumeEffect(
+                    new StatusEffectInstance(StatusEffects.NAUSEA, 240, 0), 0.3F))
+            .build();
 }

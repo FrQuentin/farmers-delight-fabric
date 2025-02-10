@@ -46,5 +46,30 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.COOKED_MUTTON_CHOPS, Models.GENERATED);
         itemModelGenerator.register(ModItems.HAM, Models.GENERATED);
         itemModelGenerator.register(ModItems.SMOKED_HAM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PIE_CRUST, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CAKE_SLICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.APPLE_PIE_SLICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SWEET_BERRY_CHEESECAKE_SLICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHOCOLATE_PIE_SLICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SWEET_BERRY_COOKIE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HONEY_COOKIE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MELON_POPSICLE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.GLOW_BERRY_CUSTARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FRUIT_SALAD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MIXED_SALAD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.NETHER_SALAD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BARBECUE_STICK, Models.GENERATED);
+        itemModelGenerator.register(ModItems.EGG_SANDWICH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHICKEN_SANDWICH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HAMBURGER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BACON_SANDWICH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MUTTON_WRAP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DUMPLINGS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STUFFED_POTATO, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CABBAGE_ROLLS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SALMON_ROLL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COD_ROLL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.KELP_ROLL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.KELP_ROLL_SLICE, Models.GENERATED);
     }
 }

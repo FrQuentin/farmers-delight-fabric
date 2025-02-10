@@ -44,6 +44,31 @@ public class ModItemGroups {
                         entries.add(ModItems.COOKED_MUTTON_CHOPS);
                         entries.add(ModItems.HAM);
                         entries.add(ModItems.SMOKED_HAM);
+                        entries.add(ModItems.PIE_CRUST);
+                        entries.add(ModItems.CAKE_SLICE);
+                        entries.add(ModItems.APPLE_PIE_SLICE);
+                        entries.add(ModItems.SWEET_BERRY_CHEESECAKE_SLICE);
+                        entries.add(ModItems.CHOCOLATE_PIE_SLICE);
+                        entries.add(ModItems.SWEET_BERRY_COOKIE);
+                        entries.add(ModItems.HONEY_COOKIE);
+                        entries.add(ModItems.MELON_POPSICLE);
+                        entries.add(ModItems.GLOW_BERRY_CUSTARD);
+                        entries.add(ModItems.FRUIT_SALAD);
+                        entries.add(ModItems.MIXED_SALAD);
+                        entries.add(ModItems.NETHER_SALAD);
+                        entries.add(ModItems.BARBECUE_STICK);
+                        entries.add(ModItems.EGG_SANDWICH);
+                        entries.add(ModItems.CHICKEN_SANDWICH);
+                        entries.add(ModItems.HAMBURGER);
+                        entries.add(ModItems.BACON_SANDWICH);
+                        entries.add(ModItems.MUTTON_WRAP);
+                        entries.add(ModItems.DUMPLINGS);
+                        entries.add(ModItems.STUFFED_POTATO);
+                        entries.add(ModItems.CABBAGE_ROLLS);
+                        entries.add(ModItems.SALMON_ROLL);
+                        entries.add(ModItems.COD_ROLL);
+                        entries.add(ModItems.KELP_ROLL);
+                        entries.add(ModItems.KELP_ROLL_SLICE);
                     }).build());
 
     public static void initialize() {
