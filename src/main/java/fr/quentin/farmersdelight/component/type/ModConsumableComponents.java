@@ -16,4 +16,13 @@ public class ModConsumableComponents extends ConsumableComponents {
                             new StatusEffectInstance(StatusEffects.ABSORPTION, 1200, 0))
             ).build();
     public static final ConsumableComponent MELON_JUICE = drink().consumeEffect(new RestoreHealthConsumeEffect(1)).build();
+    public static final ConsumableComponent WHEAT_DOUGH = food().consumeEffect(new ApplyEffectsConsumeEffect(
+            new StatusEffectInstance(StatusEffects.HUNGER, 600, 0), 0.3F))
+            .build();
+    public static final ConsumableComponent RAW_PASTA = food().consumeEffect(new ApplyEffectsConsumeEffect(
+                    new StatusEffectInstance(StatusEffects.HUNGER, 600, 0), 0.3F))
+            .build();
+    public static final ConsumableComponent CHICKEN_CUTS = food().consumeEffect(new ApplyEffectsConsumeEffect(
+                    new StatusEffectInstance(StatusEffects.HUNGER, 600, 0), 0.3F))
+            .build();
 }

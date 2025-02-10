@@ -26,6 +26,24 @@ public class ModItemGroups {
                         entries.add(ModItems.APPLE_CIDER);
                         entries.add(ModItems.MELON_JUICE);
                         entries.add(ModItems.TOMATO_SAUCE);
+                        entries.add(ModItems.WHEAT_DOUGH);
+                        entries.add(ModItems.RAW_PASTA);
+                        entries.add(ModItems.PUMPKIN_SLICE);
+                        entries.add(ModItems.CABBAGE_LEAF);
+                        entries.add(ModItems.MINCED_BEEF);
+                        entries.add(ModItems.BEEF_PATTY);
+                        entries.add(ModItems.CHICKEN_CUTS);
+                        entries.add(ModItems.COOKED_CHICKEN_CUTS);
+                        entries.add(ModItems.BACON);
+                        entries.add(ModItems.COOKED_BACON);
+                        entries.add(ModItems.COD_SLICE);
+                        entries.add(ModItems.COOKED_COD_SLICE);
+                        entries.add(ModItems.SALMON_SLICE);
+                        entries.add(ModItems.COOKED_SALMON_SLICE);
+                        entries.add(ModItems.MUTTON_CHOPS);
+                        entries.add(ModItems.COOKED_MUTTON_CHOPS);
+                        entries.add(ModItems.HAM);
+                        entries.add(ModItems.SMOKED_HAM);
                     }).build());
 
     public static void initialize() {

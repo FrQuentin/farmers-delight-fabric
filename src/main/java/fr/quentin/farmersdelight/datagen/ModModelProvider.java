@@ -22,13 +22,29 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CABBAGE, Models.GENERATED);
         itemModelGenerator.register(ModItems.TOMATO, Models.GENERATED);
         itemModelGenerator.register(ModItems.ONION, Models.GENERATED);
-
         itemModelGenerator.register(ModItems.FRIED_EGG, Models.GENERATED);
-
         itemModelGenerator.register(ModItems.MILK_BOTTLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.HOT_COCOA, Models.GENERATED);
         itemModelGenerator.register(ModItems.APPLE_CIDER, Models.GENERATED);
         itemModelGenerator.register(ModItems.MELON_JUICE, Models.GENERATED);
         itemModelGenerator.register(ModItems.TOMATO_SAUCE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WHEAT_DOUGH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RAW_PASTA, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PUMPKIN_SLICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CABBAGE_LEAF, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MINCED_BEEF, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BEEF_PATTY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHICKEN_CUTS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_CHICKEN_CUTS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BACON, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_BACON, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COD_SLICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_COD_SLICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SALMON_SLICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_SALMON_SLICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MUTTON_CHOPS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_MUTTON_CHOPS, Models.GENERATED);
+        itemModelGenerator.register(ModItems.HAM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SMOKED_HAM, Models.GENERATED);
     }
 }

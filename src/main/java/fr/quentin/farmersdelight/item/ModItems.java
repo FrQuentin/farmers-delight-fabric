@@ -52,6 +52,24 @@ public class ModItems {
                     .maxCount(16)
     );
     public static final Item TOMATO_SAUCE = register("tomato_sauce", new Item.Settings().food(ModFoodComponents.TOMATO_SAUCE).useRemainder(Items.BOWL));
+    public static final Item WHEAT_DOUGH = register("wheat_dough", new Item.Settings().food(ModFoodComponents.WHEAT_DOUGH, ModConsumableComponents.WHEAT_DOUGH));
+    public static final Item RAW_PASTA = register("raw_pasta", new Item.Settings().food(ModFoodComponents.RAW_PASTA, ModConsumableComponents.RAW_PASTA));
+    public static final Item PUMPKIN_SLICE = register("pumpkin_slice", new Item.Settings().food(ModFoodComponents.PUMPKIN_SLICE));
+    public static final Item CABBAGE_LEAF = register("cabbage_leaf", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.CABBAGE_LEAF));
+    public static final Item MINCED_BEEF = register("minced_beef", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.MINCED_BEEF));
+    public static final Item BEEF_PATTY = register("beef_patty", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.BEEF_PATTY));
+    public static final Item CHICKEN_CUTS = register("chicken_cuts", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.CHICKEN_CUTS, ModConsumableComponents.CHICKEN_CUTS));
+    public static final Item COOKED_CHICKEN_CUTS = register("cooked_chicken_cuts", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.COOKED_CHICKEN_CUTS));
+    public static final Item BACON = register("bacon", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.BACON));
+    public static final Item COOKED_BACON = register("cooked_bacon", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.COOKED_BACON));
+    public static final Item COD_SLICE = register("cod_slice", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.COD_SLICE));
+    public static final Item COOKED_COD_SLICE = register("cooked_cod_slice", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.COOKED_COD_SLICE));
+    public static final Item SALMON_SLICE = register("salmon_slice", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.SALMON_SLICE));
+    public static final Item COOKED_SALMON_SLICE = register("cooked_salmon_slice", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.COOKED_SALMON_SLICE));
+    public static final Item MUTTON_CHOPS = register("mutton_chops", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.MUTTON_CHOPS));
+    public static final Item COOKED_MUTTON_CHOPS = register("cooked_mutton_chops", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.COOKED_MUTTON_CHOPS));
+    public static final Item HAM = register("ham", new Item.Settings().food(ModFoodComponents.HAM));
+    public static final Item SMOKED_HAM = register("smoked_ham", new Item.Settings().food(ModFoodComponents.HAM));
 
     private static RegistryKey<Item> keyOf(String id) {
         return RegistryKey.of(RegistryKeys.ITEM, Identifier.of(FarmersDelight.MOD_ID, id));
