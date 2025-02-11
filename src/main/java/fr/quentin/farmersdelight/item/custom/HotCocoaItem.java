@@ -15,6 +15,6 @@ public class HotCocoaItem extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-        tooltip.add(Text.translatable("item.farmersdelight.hot_cocoa.tooltip").formatted(Formatting.GRAY));
+        tooltip.add(Text.translatable("item.farmers-delight.hot_cocoa.tooltip").formatted(Formatting.GRAY));
     }
 }

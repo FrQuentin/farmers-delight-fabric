@@ -14,6 +14,6 @@ public class MilkBottleItem extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-        tooltip.add(Text.translatable("item.farmersdelight.milk_bottle.tooltip").formatted(Formatting.GRAY));
+        tooltip.add(Text.translatable("item.farmers-delight.milk_bottle.tooltip").formatted(Formatting.GRAY));
     }
 }

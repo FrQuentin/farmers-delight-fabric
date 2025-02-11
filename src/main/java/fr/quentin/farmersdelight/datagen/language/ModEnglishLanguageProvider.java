@@ -68,13 +68,15 @@ public class ModEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.KELP_ROLL, "Kelp Roll");
         translationBuilder.add(ModItems.KELP_ROLL_SLICE, "Kelp Roll Slice");
 
-        translationBuilder.add("item.farmersdelight.milk_bottle.tooltip", "Clears one status effect when consumed");
-        translationBuilder.add("item.farmersdelight.hot_cocoa.tooltip", "Removes one harmful status effect when consumed");
-        translationBuilder.add("item.farmersdelight.effect.absorption_duration", "Absorption: (01:00)");
-        translationBuilder.add("item.farmersdelight.effect.when_applied", "When Applied:");
-        translationBuilder.add("item.farmersdelight.effect.max_absorption_bonus", "+4 Max Absorption");
-        translationBuilder.add("item.farmersdelight.melon_juice.tooltip", "Restores 1 heart when consumed");
-        translationBuilder.add("item.farmersdelight.effect.regeneration_duration", "Regeneration: (00:05)");
+        translationBuilder.add("item.farmers-delight.milk_bottle.tooltip", "Clears one status effect when consumed");
+        translationBuilder.add("item.farmers-delight.hot_cocoa.tooltip", "Removes one harmful status effect when consumed");
+        translationBuilder.add("item.farmers-delight.effect.absorption_duration", "Absorption: (01:00)");
+        translationBuilder.add("item.farmers-delight.effect.when_applied", "When Applied:");
+        translationBuilder.add("item.farmers-delight.effect.max_absorption_bonus", "+4 Max Absorption");
+        translationBuilder.add("item.farmers-delight.melon_juice.tooltip", "Restores 1 heart when consumed");
+        translationBuilder.add("item.farmers-delight.effect.regeneration_duration", "Regeneration: (00:05)");
+
+        translationBuilder.add("effect.farmers-delight.comfort", "Comfort");
 
         translationBuilder.add(ModItemGroups.FARMERS_DELIGHT.getDisplayName().getString(), "Farmer's Delight");
     }

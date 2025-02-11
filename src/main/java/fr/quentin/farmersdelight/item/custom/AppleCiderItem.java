@@ -15,9 +15,9 @@ public class AppleCiderItem extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-        tooltip.add(Text.translatable("item.farmersdelight.effect.absorption_duration").formatted(Formatting.GRAY));
+        tooltip.add(Text.translatable("item.farmers-delight.effect.absorption_duration").formatted(Formatting.GRAY));
         tooltip.add(Text.empty());
-        tooltip.add(Text.translatable("item.farmersdelight.effect.when_applied").formatted(Formatting.DARK_GRAY));
-        tooltip.add(Text.translatable("item.farmersdelight.effect.max_absorption_bonus").formatted(Formatting.DARK_AQUA));
+        tooltip.add(Text.translatable("item.farmers-delight.effect.when_applied").formatted(Formatting.DARK_GRAY));
+        tooltip.add(Text.translatable("item.farmers-delight.effect.max_absorption_bonus").formatted(Formatting.DARK_AQUA));
     }
 }

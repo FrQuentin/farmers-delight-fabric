@@ -1,5 +1,6 @@
 package fr.quentin.farmersdelight;
 
+import fr.quentin.farmersdelight.effect.ModStatusEffects;
 import fr.quentin.farmersdelight.item.ModItemGroups;
 import fr.quentin.farmersdelight.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -15,5 +16,6 @@ public class FarmersDelight implements ModInitializer {
 	public void onInitialize() {
 		ModItems.initialize();
 		ModItemGroups.initialize();
+		ModStatusEffects.initialize();
 	}
 }

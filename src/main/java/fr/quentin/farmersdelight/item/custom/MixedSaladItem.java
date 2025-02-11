@@ -15,6 +15,6 @@ public class MixedSaladItem extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
-        tooltip.add(Text.translatable("item.farmersdelight.effect.regeneration_duration").formatted(Formatting.GRAY));
+        tooltip.add(Text.translatable("item.farmers-delight.effect.regeneration_duration").formatted(Formatting.GRAY));
     }
 }
