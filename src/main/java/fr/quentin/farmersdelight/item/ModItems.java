@@ -95,6 +95,79 @@ public class ModItems {
     public static final Item COD_ROLL = register("cod_roll", new Item.Settings().food(ModFoodComponents.COD_ROLL));
     public static final Item KELP_ROLL = register("kelp_roll", SlowFoodItem::new, new Item.Settings().food(ModFoodComponents.KELP_ROLL));
     public static final Item KELP_ROLL_SLICE = register("kelp_roll_slice", QuickFoodItem::new, new Item.Settings().food(ModFoodComponents.KELP_ROLL_SLICE));
+    public static final Item COOKED_RICE = register("cooked_rice", CookedRiceItem::new, new Item.Settings().food(ModFoodComponents.COOKED_RICE, ModConsumableComponents.COOKED_RICE));
+    public static final Item BONE_BROTH = register("bone_broth",
+            BoneBrothItem::new,
+            new Item.Settings()
+                    .recipeRemainder(Items.BOWL)
+                    .food(ModFoodComponents.BONE_BROTH, ModConsumableComponents.BONE_BROTH)
+                    .useRemainder(Items.BOWL)
+                    .maxCount(16)
+    );
+    public static final Item BEEF_STEW = register("beef_stew",
+            BeefStewItem::new,
+            new Item.Settings()
+                    .recipeRemainder(Items.BOWL)
+                    .food(ModFoodComponents.BEEF_STEW, ModConsumableComponents.BEEF_STEW)
+                    .useRemainder(Items.BOWL)
+                    .maxCount(16)
+    );
+    public static final Item CHICKEN_SOUP = register("chicken_soup",
+            ChickenSoupItem::new,
+            new Item.Settings()
+                    .recipeRemainder(Items.BOWL)
+                    .food(ModFoodComponents.CHICKEN_SOUP, ModConsumableComponents.CHICKEN_SOUP)
+                    .useRemainder(Items.BOWL)
+                    .maxCount(16)
+    );
+    public static final Item VEGETABLE_SOUP = register("vegetable_soup",
+            VegetableSoupItem::new,
+            new Item.Settings()
+                    .recipeRemainder(Items.BOWL)
+                    .food(ModFoodComponents.VEGETABLE_SOUP, ModConsumableComponents.VEGETABLE_SOUP)
+                    .useRemainder(Items.BOWL)
+                    .maxCount(16)
+    );
+    public static final Item FISH_STEW = register("fish_stew",
+            FishStewItem::new,
+            new Item.Settings()
+                    .recipeRemainder(Items.BOWL)
+                    .food(ModFoodComponents.FISH_STEW, ModConsumableComponents.FISH_STEW)
+                    .useRemainder(Items.BOWL)
+                    .maxCount(16)
+    );
+    public static final Item FRIED_RICE = register("fried_rice",
+            FriedRiceItem::new,
+            new Item.Settings()
+                    .recipeRemainder(Items.BOWL)
+                    .food(ModFoodComponents.FRIED_RICE, ModConsumableComponents.FRIED_RICE)
+                    .useRemainder(Items.BOWL)
+                    .maxCount(16)
+    );
+    public static final Item PUMPKIN_SOUP = register("pumpkin_soup",
+            PumpkinSoupItem::new,
+            new Item.Settings()
+                    .recipeRemainder(Items.BOWL)
+                    .food(ModFoodComponents.PUMPKIN_SOUP, ModConsumableComponents.PUMPKIN_SOUP)
+                    .useRemainder(Items.BOWL)
+                    .maxCount(16)
+    );
+    public static final Item BAKED_COD_STEW = register("baked_cod_stew",
+            BakedCodStewItem::new,
+            new Item.Settings()
+                    .recipeRemainder(Items.BOWL)
+                    .food(ModFoodComponents.BAKED_COD_STEW, ModConsumableComponents.BAKED_COD_STEW)
+                    .useRemainder(Items.BOWL)
+                    .maxCount(16)
+    );
+    public static final Item NOODLE_SOUP = register("noodle_soup",
+            NoodleSoupItem::new,
+            new Item.Settings()
+                    .recipeRemainder(Items.BOWL)
+                    .food(ModFoodComponents.NOODLE_SOUP, ModConsumableComponents.NOODLE_SOUP)
+                    .useRemainder(Items.BOWL)
+                    .maxCount(16)
+    );
 
     private static RegistryKey<Item> keyOf(String id) {
         return RegistryKey.of(RegistryKeys.ITEM, Identifier.of(FarmersDelight.MOD_ID, id));

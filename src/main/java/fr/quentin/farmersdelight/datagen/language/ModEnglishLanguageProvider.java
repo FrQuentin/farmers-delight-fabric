@@ -67,6 +67,16 @@ public class ModEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.COD_ROLL, "Cod Roll");
         translationBuilder.add(ModItems.KELP_ROLL, "Kelp Roll");
         translationBuilder.add(ModItems.KELP_ROLL_SLICE, "Kelp Roll Slice");
+        translationBuilder.add(ModItems.COOKED_RICE, "Cooked Rice");
+        translationBuilder.add(ModItems.BONE_BROTH, "Bone Broth");
+        translationBuilder.add(ModItems.BEEF_STEW, "Beef Stew");
+        translationBuilder.add(ModItems.CHICKEN_SOUP, "Chicken Soup");
+        translationBuilder.add(ModItems.VEGETABLE_SOUP, "Vegetable Soup");
+        translationBuilder.add(ModItems.FISH_STEW, "Fish Stew");
+        translationBuilder.add(ModItems.FRIED_RICE, "Fried Rice");
+        translationBuilder.add(ModItems.PUMPKIN_SOUP, "Pumpkin Soup");
+        translationBuilder.add(ModItems.BAKED_COD_STEW, "Baked Cod Stew");
+        translationBuilder.add(ModItems.NOODLE_SOUP, "Noodle Soup");
 
         translationBuilder.add("item.farmers-delight.milk_bottle.tooltip", "Clears one status effect when consumed");
         translationBuilder.add("item.farmers-delight.hot_cocoa.tooltip", "Removes one harmful status effect when consumed");
@@ -75,6 +85,10 @@ public class ModEnglishLanguageProvider extends FabricLanguageProvider {
         translationBuilder.add("item.farmers-delight.effect.max_absorption_bonus", "+4 Max Absorption");
         translationBuilder.add("item.farmers-delight.melon_juice.tooltip", "Restores 1 heart when consumed");
         translationBuilder.add("item.farmers-delight.effect.regeneration_duration", "Regeneration: (00:05)");
+        translationBuilder.add("item.farmers-delight.effect.brief_comfort_duration", "Comfort: (00:30)");
+        translationBuilder.add("item.farmers-delight.effect.short_comfort_duration", "Comfort: (01:00)");
+        translationBuilder.add("item.farmers-delight.effect.medium_comfort_duration", "Comfort: (03:00)");
+        translationBuilder.add("item.farmers-delight.effect.long_comfort_duration", "Comfort: (05:00)");
 
         translationBuilder.add("effect.farmers-delight.comfort", "Comfort");
 

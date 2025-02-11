@@ -71,5 +71,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.COD_ROLL, Models.GENERATED);
         itemModelGenerator.register(ModItems.KELP_ROLL, Models.GENERATED);
         itemModelGenerator.register(ModItems.KELP_ROLL_SLICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_RICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BONE_BROTH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BEEF_STEW, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CHICKEN_SOUP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.VEGETABLE_SOUP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FISH_STEW, Models.GENERATED);
+        itemModelGenerator.register(ModItems.FRIED_RICE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PUMPKIN_SOUP, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BAKED_COD_STEW, Models.GENERATED);
+        itemModelGenerator.register(ModItems.NOODLE_SOUP, Models.GENERATED);
     }
 }

@@ -1,5 +1,6 @@
 package fr.quentin.farmersdelight.component.type;
 
+import fr.quentin.farmersdelight.effect.ModStatusEffects;
 import fr.quentin.farmersdelight.item.consume.*;
 import net.minecraft.component.type.ConsumableComponent;
 import net.minecraft.component.type.ConsumableComponents;
@@ -48,5 +49,35 @@ public class ModConsumableComponents extends ConsumableComponents {
             .build();
     public static final ConsumableComponent NETHER_SALAD = food().consumeEffect(new ApplyEffectsConsumeEffect(
                     new StatusEffectInstance(StatusEffects.NAUSEA, 240, 0), 0.3F))
+            .build();
+    public static final ConsumableComponent COOKED_RICE = food().consumeEffect(new ApplyEffectsConsumeEffect(
+                    new StatusEffectInstance(ModStatusEffects.COMFORT, 600, 0), 1.0F))
+            .build();
+    public static final ConsumableComponent BONE_BROTH = drink().consumeEffect(new ApplyEffectsConsumeEffect(
+                    new StatusEffectInstance(ModStatusEffects.COMFORT, 1200, 0), 1.0F))
+            .build();
+    public static final ConsumableComponent BEEF_STEW = food().consumeEffect(new ApplyEffectsConsumeEffect(
+                    new StatusEffectInstance(ModStatusEffects.COMFORT, 3600, 0), 1.0F))
+            .build();
+    public static final ConsumableComponent CHICKEN_SOUP = food().consumeEffect(new ApplyEffectsConsumeEffect(
+                    new StatusEffectInstance(ModStatusEffects.COMFORT, 6000, 0), 1.0F))
+            .build();
+    public static final ConsumableComponent VEGETABLE_SOUP = food().consumeEffect(new ApplyEffectsConsumeEffect(
+                    new StatusEffectInstance(ModStatusEffects.COMFORT, 3600, 0), 1.0F))
+            .build();
+    public static final ConsumableComponent FISH_STEW = food().consumeEffect(new ApplyEffectsConsumeEffect(
+                    new StatusEffectInstance(ModStatusEffects.COMFORT, 3600, 0), 1.0F))
+            .build();
+    public static final ConsumableComponent FRIED_RICE = food().consumeEffect(new ApplyEffectsConsumeEffect(
+                    new StatusEffectInstance(ModStatusEffects.COMFORT, 6000, 0), 1.0F))
+            .build();
+    public static final ConsumableComponent PUMPKIN_SOUP = food().consumeEffect(new ApplyEffectsConsumeEffect(
+                    new StatusEffectInstance(ModStatusEffects.COMFORT, 6000, 0), 1.0F))
+            .build();
+    public static final ConsumableComponent BAKED_COD_STEW = food().consumeEffect(new ApplyEffectsConsumeEffect(
+                    new StatusEffectInstance(ModStatusEffects.COMFORT, 6000, 0), 1.0F))
+            .build();
+    public static final ConsumableComponent NOODLE_SOUP = food().consumeEffect(new ApplyEffectsConsumeEffect(
+                    new StatusEffectInstance(ModStatusEffects.COMFORT, 6000, 0), 1.0F))
             .build();
 }

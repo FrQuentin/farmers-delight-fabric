@@ -55,4 +55,14 @@ public class ModFoodComponents {
     public static final FoodComponent COD_ROLL = new FoodComponent.Builder().nutrition(7).saturationModifier(0.6F).build();
     public static final FoodComponent KELP_ROLL = new FoodComponent.Builder().nutrition(12).saturationModifier(0.6F).build();
     public static final FoodComponent KELP_ROLL_SLICE = new FoodComponent.Builder().nutrition(6).saturationModifier(0.5F).build();
+    public static final FoodComponent COOKED_RICE = new FoodComponent.Builder().nutrition(6).saturationModifier(0.4F).build();
+    public static final FoodComponent BONE_BROTH = new FoodComponent.Builder().nutrition(8).saturationModifier(0.7F).build();
+    public static final FoodComponent BEEF_STEW = new FoodComponent.Builder().nutrition(12).saturationModifier(0.8F).build();
+    public static final FoodComponent CHICKEN_SOUP = new FoodComponent.Builder().nutrition(14).saturationModifier(0.75F).build();
+    public static final FoodComponent VEGETABLE_SOUP = new FoodComponent.Builder().nutrition(12).saturationModifier(0.8F).build();
+    public static final FoodComponent FISH_STEW = new FoodComponent.Builder().nutrition(12).saturationModifier(0.8F).build();
+    public static final FoodComponent FRIED_RICE = new FoodComponent.Builder().nutrition(14).saturationModifier(0.75F).build();
+    public static final FoodComponent PUMPKIN_SOUP = new FoodComponent.Builder().nutrition(14).saturationModifier(0.75F).build();
+    public static final FoodComponent BAKED_COD_STEW = new FoodComponent.Builder().nutrition(14).saturationModifier(0.75F).build();
+    public static final FoodComponent NOODLE_SOUP = new FoodComponent.Builder().nutrition(14).saturationModifier(0.75F).build();
 }

@@ -69,6 +69,16 @@ public class ModItemGroups {
                         entries.add(ModItems.COD_ROLL);
                         entries.add(ModItems.KELP_ROLL);
                         entries.add(ModItems.KELP_ROLL_SLICE);
+                        entries.add(ModItems.COOKED_RICE);
+                        entries.add(ModItems.BONE_BROTH);
+                        entries.add(ModItems.BEEF_STEW);
+                        entries.add(ModItems.CHICKEN_SOUP);
+                        entries.add(ModItems.VEGETABLE_SOUP);
+                        entries.add(ModItems.FISH_STEW);
+                        entries.add(ModItems.FRIED_RICE);
+                        entries.add(ModItems.PUMPKIN_SOUP);
+                        entries.add(ModItems.BAKED_COD_STEW);
+                        entries.add(ModItems.NOODLE_SOUP);
                     }).build());
 
     public static void initialize() {
